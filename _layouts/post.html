@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<!-- {% if page.gh-repo %}
+<div class="post-gh-links">
+    <span class="gh-button">
+        <a class="github-button" href="https://github.com/anitalakhadze"
+            data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large"
+            aria-label="Follow @anitalakhadze on GitHub">
+            Follow @anitalakhadze
+        </a>
+    </span>
+
+    <span class="gh-button">
+        <a class="github-button" href="https://github.com/{{ page.gh-repo }}"
+            data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star"
+            data-size="large" aria-label="Star {{ page.gh-repo }} on GitHub">
+            Star
+        </a>
+    </span>
+
+    <span class="gh-button">
+        <a class="github-button" href="https://github.com/{{ page.gh-repo }}/fork"
+            data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-repo-forked"
+            data-size="large" aria-label="Fork {{ page.gh-repo }} on GitHub">
+            Fork
+        </a>
+    </span>
+</div>
+{% endif %} -->
+
+{% if page.title %}
+<div class="post-header">
+    <h1>{{ page.title }}<h1>
+</div>
+{% endif %}
+
+<div class="post-content">
+    {{ content }}
+</div>
