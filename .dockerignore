@@ -5,5 +5,4 @@ _site
 vendor
 node_modules
 .git
-Gemfile.lock
 .DS_Store
