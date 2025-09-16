@@ -4,6 +4,16 @@ services:
     build: .
     ports:
       - "4000:4000"
+      # Jekyll livereload uses 35729 by default; map it so host browser can connect if needed
+      - "35729:35729"
     volumes:
-      - .:/site
-    command: bundle exec jekyll serve --host 0.0.0.0
+      - .:/site:delegated
+      # persist installed gems across container restarts and avoid re-bundling every time
+      - jekyll_bundle:/site/vendor/bundle
+    environment:
+      - JEKYLL_ENV=development
+    command: bundle exec jekyll serve --host 0.0.0.0 --livereload --drafts --watch --incremental
+
+volumes:
+  jekyll_bundle:
+    driver: local
