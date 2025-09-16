@@ -133,3 +133,141 @@ pre {
 .gh-button {
     margin-right: 15px;
 }
+
+/* Mobile-first responsive design */
+@media (max-width: 768px) {
+    body {
+        margin: 1em auto;
+        padding: 0 1em;
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .wrapper {
+        padding: 0 1em;
+    }
+
+    h1 {
+        font-size: 1.8em;
+        margin-top: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        margin-top: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.3em;
+        margin-top: 1.5em;
+    }
+
+    .blog-navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1em;
+        margin-bottom: 1.5em;
+    }
+
+    .navbar-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .navbar-links a:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .post-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5em;
+    }
+
+    .post-item {
+        margin-bottom: 3em;
+    }
+
+    pre {
+        font-size: 0.9em;
+        padding: 8px;
+        overflow-x: auto;
+    }
+
+    code {
+        font-size: 0.9em;
+        padding: 1px 4px;
+    }
+
+    blockquote {
+        margin: 1.5em 0;
+        padding-left: 12px;
+        font-size: 1em;
+    }
+
+    li {
+        margin-bottom: 1em;
+    }
+
+    img {
+        margin: 1.5em auto;
+    }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+    body {
+        margin: 0.5em auto;
+        padding: 0 0.75em;
+        font-size: 14px;
+    }
+
+    .wrapper {
+        padding: 0 0.75em;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    .blog-navbar {
+        margin-bottom: 1em;
+    }
+
+    .navbar-links a:not(:last-child) {
+        margin-right: 8px;
+    }
+
+    .post-item {
+        margin-bottom: 2.5em;
+    }
+
+    pre {
+        font-size: 0.85em;
+        padding: 6px;
+    }
+
+    code {
+        font-size: 0.85em;
+    }
+}
+
+/* Large screens */
+@media (min-width: 1200px) {
+    body {
+        max-width: 900px;
+    }
+
+    .wrapper {
+        max-width: 900px;
+    }
+}
