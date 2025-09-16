@@ -15,7 +15,7 @@ While AI provides quick, convenient solutions, it often skips the reasoning, mis
 
 So, while AI may give answers right away, books, blogs, etc... and human interaction and its results in general shape how we think and act. That's why fully AI-generated content feels like garbage right away - because there is zero human value behind it. You cannot shortcut experience.
 
-As an illustration, take a look at one of the best reads about the troubles of debugging HERE and tell me you would get all of this experience from a 2-paragraph emoji-decorated GPT answer. 
+As an illustration, take a look at one of the best reads about the troubles of debugging [HERE](https://www.clientserver.dev/p/war-story-the-hardest-bug-i-ever) and tell me you would get all of this experience from a 2-paragraph emoji-decorated GPT answer. 
 
 I'm not an AI hater, and I'm not trying to persuade you against using it. If this is what my blog looks like, then I've done a poor job writing it. My main point is to advocate being careful with it, not to make genuine human voices feel lost or obsolete. 
 
