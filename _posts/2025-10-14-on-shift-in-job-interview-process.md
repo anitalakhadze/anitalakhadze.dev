@@ -52,4 +52,4 @@ After all, when AI can write your resume, polish your answers, and even simulate
 
 ---
 
-*Thanks to [**Tornike Onoprishvili**](https://www.linkedin.com/in/tornikeo/) for reading drafts of this. *
+*Thanks to [**Tornike Onoprishvili**](https://www.linkedin.com/in/tornikeo/) for reading drafts of this.*

@@ -23,4 +23,4 @@ After all, journey on the way to discovery is as and sometimes even more importa
 
 ---
 
-*Thanks to [**Tornike Onoprishvili**](https://www.linkedin.com/in/tornikeo/) for reading drafts of this. *
+*Thanks to [**Tornike Onoprishvili**](https://www.linkedin.com/in/tornikeo/) for reading drafts of this.*
