@@ -20,3 +20,7 @@ As an illustration, take a look at one of the best reads about the troubles of d
 I'm not an AI hater, and I'm not trying to persuade you against using it. If this is what my blog looks like, then I've done a poor job writing it. My main point is to advocate being careful with it, not to make genuine human voices feel lost or obsolete. 
 
 After all, journey on the way to discovery is as and sometimes even more important than the destination, right?
+
+---
+
+*Thanks to [**Tornike Onoprishvili**](https://www.linkedin.com/in/tornikeo/) for reading drafts of this. *
