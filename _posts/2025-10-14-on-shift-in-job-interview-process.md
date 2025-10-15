@@ -49,3 +49,7 @@ Personally, I believe companies will start announcing specific “interview slot
 If you think about it, the process starts to look a lot like casting - a job audition, and our presence, communication, and ability to connect will matter just as much as our experience on paper. It’s not necessarily a bad thing - maybe it’s even a return to something more human, ending up right back where we began: looking each other in the eye to decide if there’s a fit.
 
 After all, when AI can write your resume, polish your answers, and even simulate your tone, the only thing left to evaluate might be the one thing it still can’t fake: ***you***.
+
+---
+
+*Thanks to [**Tornike Onoprishvili**](https://www.linkedin.com/in/tornikeo/) for reading drafts of this. *
