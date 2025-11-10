@@ -1,8 +1,8 @@
 ---
 layout: post
-title: [Part 1] — Implementing Authentication with Spring Boot Security 6, OAuth2, and Angular 17 via Multiple Identity Providers
+title: "[Part 1] — Authentication with Multiple Identity Providers"
 author: Ani Talakhadze
-summary: Setting Up Backend Project and Configurations for Multi-Provider Authentication
+summary: Implementing Authentication with Spring Boot Security 6, OAuth2, and Angular 17 via Multiple Identity Providers - Setting Up Backend Project and Configurations for Multi-Provider Authentication
 ---
 
 <figure>

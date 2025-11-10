@@ -1,9 +1,8 @@
 ---
 layout: post
-title: [Part 3] — Implementing Authentication with Spring Boot Security 6, OAuth2, and Angular 17 via Multiple Identity Providers
+title: "[Part 3] — Authentication with Multiple Identity Providers"
 author: Ani Talakhadze
-summary: Getting Authorization Credentials for Google, GitHub and Twitter
-
+summary: Implementing Authentication with Spring Boot Security 6, OAuth2, and Angular 17 via Multiple Identity Providers - Getting Authorization Credentials for Google, GitHub and Twitter
 ---
 
 <figure>
@@ -70,7 +69,7 @@ Navigate to the `credentials` menu:
 Create new OAuth client ID credentials:
 
 <figure>
-    <img src="https://i.imgur.com/rmGWzD3.png" alt="Google API Console — New Credentials Creation" style="width:100%">
+    <img src="https://i.imgur.com/TYIOHJp.png" alt="Google API Console — New Credentials Creation" style="width:100%">
     <figcaption style="text-align: center;">
         Google API Console — New Credentials Creation<br>
     </figcaption>
@@ -351,4 +350,4 @@ For Facebook, acquiring credentials requires business verification. Similarly, L
 
 That wraps up this tutorial. I hope it provided valuable insights. Next, we’ll proceed to set up a minimal frontend application and test our configurations in action.
 
-As usual, the tutorial code can be found on [my GitHub repository](https://github.com/anitalakhadze/multiple-auth-api) under the branch `**tutorial/part-3**` if you wish to explore it in isolation. Alternatively, you can track the application’s progress on the main branch.
+As usual, the tutorial code can be found on [my GitHub repository](https://github.com/anitalakhadze/multiple-auth-api) under the branch `tutorial/part-3` if you wish to explore it in isolation. Alternatively, you can track the application’s progress on the main branch.
