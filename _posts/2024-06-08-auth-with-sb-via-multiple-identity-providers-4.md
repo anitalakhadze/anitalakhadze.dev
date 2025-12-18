@@ -713,6 +713,7 @@ export class ProfileComponent implements OnInit {
 
 and html:
 
+{% raw %}
 ```html
 <div class="profile-container" *ngIf="userInfo">
   <div class="profile-info">
@@ -725,6 +726,7 @@ and html:
   </div>
 </div>
 ```
+{% endraw %}
 
 and css:
 
