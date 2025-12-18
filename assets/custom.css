@@ -25,6 +25,21 @@ a:hover {
     text-decoration: none;
 }
 
+/* Style links within post content (individual post pages) */
+.post-content a {
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+.post-content a:visited {
+    color: #551a8b;
+}
+
+.post-content a:hover {
+    color: #004499;
+    text-decoration: underline;
+}
+
 h1,
 h2,
 h3,
