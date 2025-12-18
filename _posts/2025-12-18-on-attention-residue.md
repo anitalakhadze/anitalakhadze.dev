@@ -118,20 +118,20 @@ As stated above, Leroy’s work suggests that time pressure can facilitate closu
 
 A lot of advice online treats context switching as a personal discipline problem: focus harder, mute notifications, batch meetings. That stuff helps, but it doesn’t really get to the core of it. How work is designed impacts attention residue. 
 
-When our work is sliced too thinly into small tightly coupled tickets, nothing ever fully resolved and we are carrying these half-finished mental models around. 
+When our work is sliced too thinly into small tightly coupled tickets, nothing ever fully resolves and we are carrying these half-finished mental models around. 
 
 When ownership is not solid or stable, or knowledge is not properly shared, we have to check, sync, switch more. 
 
 When systems and processes are so fragmented that they don't make sense anymore, we struggle a lot, like A LOT. 
 
-So reducing attention residue isn’t mainly about silencing notifications. That’s the easy part. The harder part is whether work is structured in a way that lets our brain actually let go. Clear ownership helps. Work that’s cohesive instead of endlessly sliced helps. Systems that more or less make sense help.
+So reducing attention residue isn’t about silencing notifications. That’s the easy part. The harder part is whether work is structured in a way that lets our brain actually let go. Clear ownership helps. Work that’s cohesive helps. Systems that more or less make sense help.
 
-There’s no ready answer here. But one thing comes up again and again in the research: unfinished or weakly closed tasks don’t just disappear when we switch away from them. They keep pulling on attention in the background. Individually that might feel small. Over time it’s not. It shows up as slower thinking, more rework, more friction than we think should be there.
+There’s no ready answer here. But one thing comes up again and again in the research: unfinished or weakly closed tasks don’t just disappear when we switch away from them. They keep pulling on attention in the background. Individually that might feel small. Over time it’s not.
 
-If there’s a takeaway at all, it’s probably not “focus harder”. It’s that how work is scoped, handed over, and brought to an end shapes what kind of attention is even available for whatever comes next. Attention residue isn’t a personal failure. It’s often just the natural outcome of how the work was set up in the first place.
+While attention residue is something not fully under our control, there are a few things we can do at work to reduce it. This requires careful understanding of the dynamics of the team and processes, but the next time productivity comes up, this blog might be worth keeping in mind.
 
 ---
 
-*Diagrams have been sketched in [Excalidraw](https://app.excalidraw.com). If you have not used it already, where have you been?*
+*Diagrams have been sketched in [Excalidraw](https://app.excalidraw.com). If you are not using and loving it, where have you been?*
 
 *Thanks to [**Tornike Onoprishvili**](https://www.linkedin.com/in/tornikeo/) for reading drafts of this.*

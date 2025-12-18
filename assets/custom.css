@@ -27,16 +27,17 @@ a:hover {
 
 /* Style links within post content (individual post pages) */
 .post-content a {
-    color: #0066cc;
+    color: #041528;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 .post-content a:visited {
-    color: #551a8b;
+    color: #0a2540;
 }
 
 .post-content a:hover {
-    color: #004499;
+    color: #000810;
     text-decoration: underline;
 }
 
