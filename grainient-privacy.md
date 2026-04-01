@@ -1,11 +1,11 @@
 ---
 layout: default
-title: grainient Privacy Policy
-description: Privacy policy for the grainient iOS app, describing local photo processing and user data handling.
+title: Grainient Privacy Policy
+description: Privacy policy for the Grainient iOS app, describing local photo processing and user data handling.
 permalink: /grainient-privacy/
 ---
 
-# grainient Privacy Policy
+# Grainient Privacy Policy
 
 This Privacy Policy explains how Grainient handles information when you use the app.
 

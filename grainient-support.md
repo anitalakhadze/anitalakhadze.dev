@@ -1,11 +1,11 @@
 ---
 layout: default
-title: grainient Support
-description: Support page for the grainient iOS app, including contact details and key app information.
+title: Grainient Support
+description: Support page for the Grainient iOS app, including contact details and key app information.
 permalink: /grainient-support/
 ---
 
-# grainient Support
+# Grainient Support
 
 If you need help with Grainient, you can contact me any time at [talakhadzeani@gmail.com](mailto:talakhadzeani@gmail.com).
 
