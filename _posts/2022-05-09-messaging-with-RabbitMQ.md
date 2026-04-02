@@ -8,6 +8,13 @@ tags: [RabbitMQ, Spring Boot, Maven, Messaging, Java]
 comments: true
 author: Ani Talakhadze
 summary: This guide walks you through setting up message-based communication in a Spring Boot application using RabbitMQ and Spring AMQP. It explains core messaging concepts, shows how to configure fanout and topic exchanges, and demonstrates how to build producers and consumers for practical microservice integration.
+related_articles:
+  - title: Microservices [Part 3]
+    url: /microservices-3/
+  - title: Still Haven’t Tried Spring Cloud OpenFeign? You’re Missing Out
+    url: /spring-cloud-openfeign/
+  - title: Part 3 - HOW TO
+    url: /send-emails-from-spring-boot/
 ---
 
 If you’re interested in microservices and haven’t yet encountered message-based communication, trust me when I say you will.

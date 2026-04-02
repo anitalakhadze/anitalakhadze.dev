@@ -6,6 +6,13 @@ tags: [Google Cloud Platform, GCP, Kubernetes, K8S, Containers, Docker, Java]
 comments: true
 author: Ani Talakhadze
 summary: This guide walks you through creating, testing, and deploying a containerized Java web app to Google Kubernetes Engine (GKE) using Google Cloud Shell and Cloud Code. It covers setting up a local Kubernetes cluster, modifying and viewing your app, and finally deploying it to the cloud—making Kubernetes on GCP approachable for beginners.
+related_articles:
+  - title: Kubernetes
+    url: /kubernetes/
+  - title: Kubernetes
+    url: /kubernetes-deploying-docker-locally/
+  - title: From Idea to https://
+    url: /from-idea-to-https/
 ---
 
 Many developers are confused when they hear “google cloud platform,” as I was when I first learned about GCP. It’s not unexpected, because even if you visit [cloud.google.com](https://cloud.google.com/), you won’t be able to fully comprehend the platform’s massive content and capabilities. On the one hand, this highlights the potential of cloud computing services, but it also makes it nearly impossible for a newcomer to get started using the platform without assistance.

@@ -6,6 +6,13 @@ tags: [Kubernetes, Deployment, Minikube, Docker, Kubectl]
 comments: true
 author: Ani Talakhadze
 summary: This tutorial shows you how to deploy a Docker image to a local Kubernetes cluster using Minikube. It walks through setting up the environment, configuring nodes, creating deployment and service YAML files, and accessing your running application—making it easy to get hands-on experience with Kubernetes on your own machine.
+related_articles:
+  - title: Kubernetes
+    url: /kubernetes/
+  - title: Kubernetes
+    url: /kubernetes-deploying-containerized-app/
+  - title: From Idea to https://
+    url: /from-idea-to-https/
 ---
 
 In this tutorial, I want to show you how to deploy a docker image to a local Kubernetes cluster directly from your computer. This will hugely increase your coding confidence. So grab your favorite snacks and keep the rhythm!
@@ -272,5 +279,4 @@ If you are interested in Kubernetes’ core infrastructure, you can have a look 
 Also, if you are interested in reading more about Cloud-Native Development and deploying a containerized app on Kubernetes from Google Cloud Platform, you can go ahead and read about it in my another article [here](https://anitalakhadze.github.io/2021-12-19-kubernetes-deploying-containerized-app/).
 
 Don’t miss the future blogs to find out more about Kubernetes and other interesting stuff out there. Stay tuned!
-
 

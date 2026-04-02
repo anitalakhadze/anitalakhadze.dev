@@ -5,6 +5,13 @@ tags: [Spring Boot, Sprint Security, JWT, Authentication, Authorization, Java]
 comments: true
 author: Ani Talakhadze
 summary: This comprehensive tutorial explains how to secure your Spring Boot applications using JWT (JSON Web Tokens) and Spring Security. It covers JWT concepts, project setup, user and role management, authentication and authorization logic, token generation and validation, and practical code examples—equipping you to implement secure, stateless authentication for your web applications.
+related_articles:
+  - title: Spring Boot Security - Core Concepts Explained
+    url: /spring-security-core-concepts/
+  - title: Spring Boot Security - Authorization Configuration
+    url: /spring-security-authorization-configuration/
+  - title: "[Part 1] — Authentication with Multiple Identity Providers"
+    url: /auth-with-sb-via-multiple-identity-providers-1/
 ---
 
 In this tutorial, you’ll learn all you need to know about using Spring Boot with JWT to protect your applications. Everything in this section may be used in your Angular, React, or other apps.

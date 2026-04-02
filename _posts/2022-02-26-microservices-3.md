@@ -8,6 +8,13 @@ tags: [Microservices, Spring Boot, Maven, Docker, PostgreSQL, Java]
 comments: true
 author: Ani Talakhadze
 summary: This entry in the microservices series explains how to use a service registry—specifically, Eureka Server—to manage and connect multiple Spring Boot microservices. It covers setting up Eureka Server and clients, registering services, and implementing load-balanced communication, making your architecture scalable and resilient as your application grows.
+related_articles:
+  - title: Microservices [Part 1]
+    url: /microservices-1/
+  - title: Microservices [Part 2]
+    url: /microservices-2/
+  - title: Still Haven’t Tried Spring Cloud OpenFeign? You’re Missing Out
+    url: /spring-cloud-openfeign/
 ---
 
 In [part 1](https://anitalakhadze.github.io/2022-02-09-microservices-1/) and [part 2](https://anitalakhadze.github.io/2022-02-23-microservices-2/) of the microservices series, we spent some time building two simple microservices — Student and Plagiarism and established HTTP communication between them.

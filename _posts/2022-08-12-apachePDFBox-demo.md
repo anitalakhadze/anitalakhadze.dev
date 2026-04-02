@@ -8,6 +8,13 @@ tags: [Apache, PDF, PDFBox, Spring Boot, Maven]
 comments: true
 author: Ani Talakhadze
 summary: This tutorial introduces Apache PDFBox, a Java library for creating and reading PDF files. It walks through setting up a project, writing text and images to PDFs, extracting text, and adding document metadata—all with clear code examples—making it easy to handle common PDF tasks programmatically.
+related_articles:
+  - title: Part 4 - HOW TO
+    url: /messaging-with-rabbitmq/
+  - title: Part 3 - HOW TO
+    url: /send-emails-from-spring-boot/
+  - title: Practices I Try to Follow for Cleaner Code
+    url: /practices-for-cleaner-code/
 ---
 
 Who doesn’t enjoy applying well-thought-out solutions? Any of us would want to write beautiful code that we could be proud of. However, essential and common tasks for business don’t always have elegant answers. Anyone who has worked with PDF files will definitely agree with me.
@@ -239,4 +246,3 @@ If you have missed anything, all code can be found on my [GitHub repository](htt
 Let me know if you have any questions, comments, or suggestions for the upcoming blogs in this series.
 
 Stay tuned and don’t miss the following tutorials!
-

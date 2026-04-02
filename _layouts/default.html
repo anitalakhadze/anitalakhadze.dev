@@ -4,11 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-    {% if page.description %}
-    <meta name="description" content="{{ page.description | escape }}">
+    {% assign public_url = "https://www.anitalakhadze.dev" %}
+    {% assign meta_title = page.title | default: site.title %}
+    {% assign meta_description = page.description | default: page.summary | default: site.description %}
+    {% assign page_url = public_url | append: site.baseurl | append: page.url %}
+    {% assign meta_image = page.preview_image | default: site.default_social_image %}
+    {% if meta_image and meta_image contains '://' %}
+    {% assign meta_image_url = meta_image %}
+    {% elsif meta_image %}
+    {% assign meta_image_url = public_url | append: site.baseurl | append: meta_image %}
     {% endif %}
+    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{ meta_description | strip_html | normalize_whitespace | escape }}">
     <meta name="robots" content="{% if page.robots %}{{ page.robots }}{% else %}index, follow{% endif %}">
+    <link rel="canonical" href="{{ page_url }}">
+    <meta property="og:title" content="{{ meta_title | escape }}">
+    <meta property="og:description" content="{{ meta_description | strip_html | normalize_whitespace | escape }}">
+    <meta property="og:url" content="{{ page_url }}">
+    <meta property="og:site_name" content="{{ site.title | escape }}">
+    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+    {% if meta_image_url %}
+    <meta property="og:image" content="{{ meta_image_url }}">
+    <meta name="twitter:image" content="{{ meta_image_url }}">
+    <meta name="twitter:card" content="summary_large_image">
+    {% else %}
+    <meta name="twitter:card" content="summary">
+    {% endif %}
+    <meta name="twitter:title" content="{{ meta_title | escape }}">
+    <meta name="twitter:description" content="{{ meta_description | strip_html | normalize_whitespace | escape }}">
+    {% if page.layout == 'post' %}
+    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+    {% endif %}
     <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/assets/main.css">
     <link rel="stylesheet" href="/assets/custom.css">

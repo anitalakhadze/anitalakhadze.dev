@@ -3,6 +3,13 @@ layout: post
 title: Software Entropy
 author: Ani Talakhadze
 summary: Not so long ago I came across the term Software Entropy (aka software rot, code rot, software decay…) and it instantly caught my attention. While entropy is a scientific concept, the context was about software development and the term described the process of "degradation of the use or performance of software over time." Why not get into details?
+related_articles:
+  - title: Practices I Try to Follow for Cleaner Code
+    url: /practices-for-cleaner-code/
+  - title: Cleaner Code with Java Optional - Examples, Best Practices and Exercises
+    url: /cleaner-code-with-java-optional-copy/
+  - title: Human attention is weird
+    url: /on-attention-residue/
 ---
 
 Every developer knows the feeling: you open a piece of code and think, *“Wait, how did it get this bad?”* It wasn’t always this way - something happened over time. That “something” has a name: software entropy. Let's unpack what it is, why it creeps into every project, and what it means for us as developers.

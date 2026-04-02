@@ -2,6 +2,13 @@
 layout: post
 title: Cleaner Code with Java Optional - Examples, Best Practices and Exercises
 summary: Refactoring Practical Java Cases for Better Code Flow
+related_articles:
+  - title: Practices I Try to Follow for Cleaner Code
+    url: /practices-for-cleaner-code/
+  - title: Essential Stream Operations in Java
+    url: /essential-stream-operations-in-java/
+  - title: Software Entropy
+    url: /software-entropy/
 ---
 
 <figure>

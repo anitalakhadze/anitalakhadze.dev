@@ -7,6 +7,13 @@ tags: [Spring Boot, SpringAI, Ollama, Gradle]
 comments: true
 author: Ani Talakhadze
 summary: Discover how to integrate the Ollama chat model with SpringAI in a hands-on guide that walks you through running powerful language models locally and connecting them to your Spring Boot applications. This post covers setting up Ollama, configuring dependencies, and testing the chat client, making it easy to experiment with AI features using familiar Java tools and frameworks.
+related_articles:
+  - title: On Why Human Knowledge Still Matters
+    url: /on-human-knowledge/
+  - title: Still Haven’t Tried Spring Cloud OpenFeign? You’re Missing Out
+    url: /spring-cloud-openfeign/
+  - title: Essential Tools That I Use Every Day as a Developer
+    url: /essential-tools-for-a-dev/
 ---
 
 Since the introduction of ChatGPT, our digital landscape has seen a significant transformation. This innovative technology has revolutionized how we interact with computers, sparking interest and adoption across various industries. Today, rather than delving into the broad topic of AI, I’m excited to introduce you to a practical application: [SpringAI](https://spring.io/projects/spring-ai), paired with powerful [Ollama](https://ollama.com/) chat model.

@@ -2,6 +2,13 @@
 layout: post
 title: Essential Tools That I Use Every Day as a Developer
 author: Ani Talakhadze
+related_articles:
+  - title: IntelliJ IDEA Insider - Getting Started
+    url: /intellij-insider-getting-started/
+  - title: Git Squash or Squashn’t?!
+    url: /git-squash-or-squashnt/
+  - title: SpringAI Featuring Ollama Chat Model
+    url: /springai-featuring-ollama/
 ---
 
 ![An illustration of me working, created by Elene Chekurishvili (check out her other awesome works here)](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*kKTcOHl3cm6w6ANbp6sqFw.jpeg)

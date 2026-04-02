@@ -3,6 +3,13 @@ layout: post
 title: Mastering Custom Validation in Spring Boot
 author: Ani Talakhadze
 summary: Advanced Techniques and Best Practices
+related_articles:
+  - title: Ultimate Guide to Spring Boot Exception Handling
+    url: /sb-exception-handling-guide/
+  - title: Practices I Try to Follow for Cleaner Code
+    url: /practices-for-cleaner-code/
+  - title: Id generation strategy in Spring Boot
+    url: /id-generation-strategy-in-sb-copy/
 ---
 
 ![captionless image](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*oQaTrb-L0a9xY6rPTL6TvQ.jpeg)

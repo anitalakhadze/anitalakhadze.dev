@@ -3,6 +3,13 @@ layout: post
 title: Essential Soft Skills for Software Developers
 author: Ani Talakhadze
 summary: By "soft" I mean the non-technical skills that help us manage workplace relationships. We often focus so much on technical challenges that we forget how important these skills are to our success.
+related_articles:
+  - title: Human attention is weird
+    url: /on-attention-residue/
+  - title: When Everyone Polishes Their Resume, What Happens Next?
+    url: /on-shift-in-job-interview-process/
+  - title: On Why Human Knowledge Still Matters
+    url: /on-human-knowledge/
 ---
 
 <figure>

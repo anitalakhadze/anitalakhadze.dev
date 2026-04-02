@@ -2,6 +2,13 @@
 layout: post
 title: Still Haven’t Tried Spring Cloud OpenFeign? You’re Missing Out
 summary: If you’re tired of dealing with a lot of boilerplate code or just want a cleaner way to do things, Spring Cloud OpenFeign might be exactly what you need. In this article, we’ll talk about what OpenFeign is, why it’s worth using, and how you can get started with some practical examples.
+related_articles:
+  - title: Microservices [Part 2]
+    url: /microservices-2/
+  - title: Microservices [Part 3]
+    url: /microservices-3/
+  - title: SpringAI Featuring Ollama Chat Model
+    url: /springai-featuring-ollama/
 ---
 
 <figure>

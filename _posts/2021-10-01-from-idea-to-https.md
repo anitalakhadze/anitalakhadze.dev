@@ -5,6 +5,13 @@ tags: [Spring Boot, Java, GCP, Docker, Deployment]
 comments: true
 author: Ani Talakhadze
 summary: This guide takes you step-by-step through building a simple Java website with Spring Boot, containerizing it with Docker, and deploying it to Google Cloud Platform. It covers project setup, writing a basic controller, creating a Dockerfile, and configuring cloud resources—making it accessible for beginners who want to get their site online quickly and confidently.
+related_articles:
+  - title: Kubernetes
+    url: /kubernetes/
+  - title: Kubernetes
+    url: /kubernetes-deploying-containerized-app/
+  - title: Microservices [Part 1]
+    url: /microservices-1/
 ---
 
 With web development, the hardest part is the beginning. I’ve had had many sleepless nights, sitting in front of a laptop just wondering, why doesn’t this website want to work? While sites like Stack Overflow are absolutely amazing, no website I’m aware of contains an up-to-date end-to-end tutorial for creating a website. So, I decided to make a small guide for the lost souls just like my younger self. I present to you the definitive 2021 guide to creating a website from scratch with java and google cloud, for free (sadly, creating the custom www.yourname.com domain isn’t included… yet!).

@@ -3,6 +3,13 @@ layout: post
 title: Human attention is weird
 author: Ani Talakhadze
 summary: Context switching isn’t just about interruptions or discipline. Research on attention residue shows that unfinished or weakly closed tasks keep pulling on our attention, even after we move on. How work is scoped, owned, and brought to an end matters more than we usually admit.
+related_articles:
+  - title: Software Entropy
+    url: /software-entropy/
+  - title: Essential Soft Skills for Software Developers
+    url: /essential-soft-skills-for-devs/
+  - title: On Why Human Knowledge Still Matters
+    url: /on-human-knowledge/
 ---
 
 We developers may argue about many things - starting with how to name variables *(welcome to the club)* and ending with which language or platform deserves the crown. But hating context switching isn't one of them. That's where we stand together like a united front. We hate it with heart, soul, and all our might. And heaven help anyone who suggests otherwise. 

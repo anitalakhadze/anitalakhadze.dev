@@ -6,6 +6,13 @@ tags: [Kubernetes, K8s, K8s cluster, pods, node]
 comments: true
 author: Ani Talakhadze
 summary: This post offers a clear overview of Kubernetes, explaining the core problems it solves for deploying and scaling containerized applications. It covers key concepts like clusters, control plane, nodes, and pods, and breaks down the architecture that enables zero-downtime deployments, easy scaling, and efficient resource management for modern software projects.
+related_articles:
+  - title: Kubernetes
+    url: /kubernetes-deploying-docker-locally/
+  - title: Kubernetes
+    url: /kubernetes-deploying-containerized-app/
+  - title: From Idea to https://
+    url: /from-idea-to-https/
 ---
 
 Knowing K8s will set you apart from a lot of other software engineers since there is a lot of demand for people who know K8s right now. Let’s briefly discuss the basic concepts and architectural features that make Kubernetes such a nice tool for any developer!

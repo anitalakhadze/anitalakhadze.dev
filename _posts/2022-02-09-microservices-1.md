@@ -8,6 +8,13 @@ tags: [Microservices, Spring Boot, Maven, Docker, PostgreSQL, Java]
 comments: true
 author: Ani Talakhadze
 summary: This article introduces the basics of building microservices with Spring Boot, guiding you through setting up a Maven multi-module project, creating your first microservice, and connecting it to a PostgreSQL database running on Docker. With practical steps and clear examples, it’s a great starting point for anyone new to microservice architecture.
+related_articles:
+  - title: Microservices [Part 2]
+    url: /microservices-2/
+  - title: Microservices [Part 3]
+    url: /microservices-3/
+  - title: Part 4 - HOW TO
+    url: /messaging-with-rabbitmq/
 ---
 
 Microservices are so well-known in the IT industry right now that they don’t require a special introduction. If you’ve worked with monolithic programs before, you’ll understand how difficult it is to deploy them. From a range of viewpoints, the larger a software is, the more difficult it is to maintain it.

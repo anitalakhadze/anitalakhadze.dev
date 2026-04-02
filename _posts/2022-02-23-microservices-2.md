@@ -8,6 +8,13 @@ tags: [Microservices, Spring Boot, Maven, Docker, PostgreSQL, Java]
 comments: true
 author: Ani Talakhadze
 summary: This post continues the microservices series by adding a second service—Plagiarism—to the project, showing how to set up its own database, build REST endpoints, and enable communication between microservices using RestTemplate. It’s a practical guide to expanding your Spring Boot microservice architecture and connecting services together.
+related_articles:
+  - title: Microservices [Part 1]
+    url: /microservices-1/
+  - title: Microservices [Part 3]
+    url: /microservices-3/
+  - title: Still Haven’t Tried Spring Cloud OpenFeign? You’re Missing Out
+    url: /spring-cloud-openfeign/
 ---
 
 The series of lessons on constructing microservices using Maven, Spring Boot, and Docker is still ongoing. You can see a step-by-step tutorial on setting up a Maven project and creating a very simple microservice Student that is connected to a PostgreSQL database running in a Docker container in the first blog [here](https://anitalakhadze.github.io/2022-02-09-microservices-1/).

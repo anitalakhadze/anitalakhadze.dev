@@ -135,6 +135,117 @@ pre {
     color: #577589;
 }
 
+.post-date {
+    margin-top: 0;
+    margin-bottom: 1em;
+    color: #577589;
+    font-size: 0.95em;
+}
+
+.post-share {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.85em;
+    margin: 1.25em 0 2em 0;
+    font-size: 0.95em;
+}
+
+.post-share-footer {
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+    padding-top: 0.75em;
+    border-top: 1px solid rgba(0, 53, 89, 0.12);
+}
+
+.post-share a,
+.share-link-button {
+    color: #003559;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.post-share a:hover,
+.share-link-button:hover {
+    color: #111;
+}
+
+.post-share a,
+.share-link-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.share-link-button {
+    position: relative;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.post-share svg {
+    width: 20px;
+    height: 20px;
+    stroke: currentColor;
+    fill: none;
+    stroke-width: 2.2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.share-feedback {
+    position: absolute;
+    top: -1.8rem;
+    left: 50%;
+    transform: translate(-50%, 4px);
+    opacity: 0;
+    pointer-events: none;
+    padding: 0.12rem 0.45rem;
+    border-radius: 999px;
+    background-color: rgba(0, 53, 89, 0.9);
+    color: #edf2fb;
+    font-size: 0.72rem;
+    line-height: 1.4;
+    white-space: nowrap;
+    transition: opacity 0.18s ease, transform 0.18s ease;
+}
+
+.share-link-button.copied,
+.share-link-button.copy-failed {
+    color: #111;
+    transform: translateY(-1px);
+}
+
+.share-link-button.copied .share-feedback,
+.share-link-button.copy-failed .share-feedback {
+    opacity: 1;
+    transform: translate(-50%, 0);
+}
+
+.related-articles {
+    margin-top: 0.85em;
+}
+
+.related-articles h2 {
+    margin-top: 1em;
+    font-size: 1.35em;
+}
+
+.related-articles ul {
+    margin-left: 1.25em;
+}
+
+.related-articles li {
+    margin-bottom: 0.75em;
+}
+
+.related-articles a {
+    text-decoration: underline;
+}
+
 .blog-navbar {
     display: flex;
     justify-content: space-between;
@@ -203,6 +314,11 @@ pre {
 
     .post-item {
         margin-bottom: 3em;
+    }
+
+    .post-share {
+        gap: 0.7em;
+        margin-bottom: 1.5em;
     }
 
     pre {

@@ -5,6 +5,13 @@ tags: [Spring Boot, Exception, Exception Handling, Java]
 comments: true
 author: Ani Talakhadze
 summary: This guide explains how to handle exceptions gracefully in Spring Boot applications using @RestControllerAdvice. It covers creating custom error responses, managing specific exceptions, and centralizing error handling logic—helping you deliver clearer, more useful error messages to clients and maintain cleaner code.
+related_articles:
+  - title: Mastering Custom Validation in Spring Boot
+    url: /custom-validation-in-sb/
+  - title: Practices I Try to Follow for Cleaner Code
+    url: /practices-for-cleaner-code/
+  - title: Spring Boot Security - Core Concepts Explained
+    url: /spring-security-core-concepts/
 ---
 
 Developers spend a lot of time ensuring the program’s usual, desired flow even when unexpected events occur. Programs may crash and requests may fail, exceptions like these should be handled gracefully. Handling each and every single exception with a separate try-catch block, however, is not maintainable. Luckily, both of these issues can be addressed with the help of powerful exception handling tools provided by Spring Boot.

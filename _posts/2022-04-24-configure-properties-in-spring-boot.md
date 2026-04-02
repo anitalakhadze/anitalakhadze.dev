@@ -6,6 +6,13 @@ tags: [Properties, Spring Boot, Configuration, Java]
 comments: true
 author: Ani Talakhadze
 summary: This post explains a simple and effective way to organize and manage properties in Spring Boot projects. By grouping related settings into dedicated files and mapping them to configuration classes, it helps keep your codebase clean and maintainable—especially as your application grows.
+related_articles:
+  - title: Part 1 - HOW TO
+    url: /add-profiles-to-spring-boot/
+  - title: Part 3 - HOW TO
+    url: /send-emails-from-spring-boot/
+  - title: Part 4 - HOW TO
+    url: /messaging-with-rabbitmq/
 ---
 
 I’m sure all of the developers like it when the code they are working with is neat and tidy. Writing clean code is a pleasurable activity that makes us all proud of our skills; however, viewing clean code is even much more satisfying.
@@ -113,5 +120,4 @@ Of course, this isn’t the most comprehensive guide on specifying properties in
 In the next tutorial I will show you how to configure a mail sender service for a Spring Boot project.
 
 Stay tuned and feel free to recommend in the comments section the topics you would like to be discussed in the following articles of these series!
-
 

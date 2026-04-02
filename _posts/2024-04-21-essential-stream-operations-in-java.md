@@ -3,6 +3,13 @@ layout: post
 title: Essential Stream Operations in Java
 author: Ani Talakhadze
 summary: Boost Your Java Efficiency With Examples, Exercises And Fun Facts
+related_articles:
+  - title: Java 12 to Java 17
+    url: /java-17-features/
+  - title: Cleaner Code with Java Optional - Examples, Best Practices and Exercises
+    url: /cleaner-code-with-java-optional-copy/
+  - title: Practices I Try to Follow for Cleaner Code
+    url: /practices-for-cleaner-code/
 ---
 
 ![captionless image](https://miro.medium.com/v2/resize:fit:1210/format:webp/1*QXK9vB03OsZKF-jB8-uUyg.png)

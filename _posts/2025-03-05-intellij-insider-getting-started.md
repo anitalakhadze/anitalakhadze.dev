@@ -3,6 +3,14 @@ layout: post
 title: IntelliJ IDEA Insider - Getting Started
 author: Ani Talakhadze
 summary: Part 1 — Setup and Configuration
+preview_image: https://miro.medium.com/v2/resize:fit:1026/format:webp/1*he1ejkGcyRuyExqrgvbGKw.png
+related_articles:
+  - title: Essential Tools That I Use Every Day as a Developer
+    url: /essential-tools-for-a-dev/
+  - title: Git Squash or Squashn’t?!
+    url: /git-squash-or-squashnt/
+  - title: Practices I Try to Follow for Cleaner Code
+    url: /practices-for-cleaner-code/
 ---
 
 ![captionless image](https://miro.medium.com/v2/resize:fit:1026/format:webp/1*he1ejkGcyRuyExqrgvbGKw.png)

@@ -6,6 +6,13 @@ tags: [Profiles, Spring Boot, Configuration, Java]
 comments: true
 author: Ani Talakhadze
 summary: This article explains how to use profiles in Spring Boot to manage environment-specific configurations. By creating profile-based property files and activating profiles as needed, you can easily switch between setups like development and production—making your application more flexible and maintainable.
+related_articles:
+  - title: Part 2 - HOW TO
+    url: /configure-properties-in-spring-boot/
+  - title: Part 3 - HOW TO
+    url: /send-emails-from-spring-boot/
+  - title: Part 4 - HOW TO
+    url: /messaging-with-rabbitmq/
 ---
 
 Many of you, I’m sure, are interested in how to fine-tune your Spring Boot applications with little but meaningful things like adding profiles, customizing separate properties for different purposes, or creating mail configurations.
@@ -66,5 +73,4 @@ In this brief tutorial, we discussed how to define separate profiles in Spring B
 In the next tutorial I will show you how to create separate property classes mapped to corresponding property files and use them inside the application using Dependency Injection.
 
 Stay tuned and feel free to recommend in the comments section the topics you would like to be discussed in the following articles of these series!
-
 

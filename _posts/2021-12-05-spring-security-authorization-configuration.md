@@ -5,6 +5,13 @@ tags: [Spring Boot, Sprint Security, Authorization, Java]
 comments: true
 author: Ani Talakhadze
 summary: This article guides you through configuring authorization in Spring Boot Security, showing how to set up role-based access control for different API endpoints. With practical examples and clear explanations, it demonstrates how to permit or restrict access based on user roles, making your application safer and more flexible.
+related_articles:
+  - title: Spring Boot Security - Core Concepts Explained
+    url: /spring-security-core-concepts/
+  - title: Spring Security - Database Authentication
+    url: /spring-security-database-auth/
+  - title: Spring Security With JWT
+    url: /spring-security-with-jwt/
 ---
 
 If you’ve been reading my blogs, you’ve probably already read about core concepts, in-memory authentication, and database authentication, which are all critical aspects of Spring Security. I believe it is time for us to move on to the next crucial item on our agenda: authorization configuration.

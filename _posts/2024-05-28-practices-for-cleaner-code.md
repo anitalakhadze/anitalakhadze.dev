@@ -3,6 +3,13 @@ layout: post
 title: Practices I Try to Follow for Cleaner Code
 author: Ani Talakhadze
 summary: Personal Tips for Improving Your Code Quality
+related_articles:
+  - title: Cleaner Code with Java Optional - Examples, Best Practices and Exercises
+    url: /cleaner-code-with-java-optional-copy/
+  - title: Essential Stream Operations in Java
+    url: /essential-stream-operations-in-java/
+  - title: Software Entropy
+    url: /software-entropy/
 ---
 
 ![captionless image](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*W4OUior5OO-h1lWjQvTcmg.png)

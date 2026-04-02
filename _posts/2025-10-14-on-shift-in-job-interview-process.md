@@ -3,6 +3,13 @@ layout: post
 title: When Everyone Polishes Their Resume, What Happens Next?
 author: Ani Talakhadze
 summary: AI has made it easier than ever to apply - and harder than ever to stand out. Recruiters are flooded, candidates are optimizing every line, and interviews are quietly changing shape. Maybe the next phase of hiring will look a little more human, and a little more like casting.
+related_articles:
+  - title: On Why Human Knowledge Still Matters
+    url: /on-human-knowledge/
+  - title: Essential Soft Skills for Software Developers
+    url: /essential-soft-skills-for-devs/
+  - title: Human attention is weird
+    url: /on-attention-residue/
 ---
 
 A few years ago it was relatively easy to land a tech interview with a recruiter. Most often, the situation was so uneven that you would receive a flood of cold emails and messages from them - on LinkedIn, in your inbox, wherever - and you would ignore them. Because why bother, when you are so in demand? You could land an interview any time you want, right? 

@@ -5,6 +5,13 @@ tags: [Spring Boot, Sprint Security, Java, Authentication, Authorization]
 comments: true
 author: Ani Talakhadze
 summary: This article breaks down the core concepts of Spring Boot Security, explaining authentication, authorization, principals, roles, and authorities in clear terms. It introduces the Spring Security starter dependency and how it automatically adds login functionality, preparing you to understand and implement secure authentication and authorization in your Java applications.
+related_articles:
+  - title: Spring Boot Security - In-memory Authentication
+    url: /spring-security-in-memory-auth/
+  - title: Spring Boot Security - Authorization Configuration
+    url: /spring-security-authorization-configuration/
+  - title: Spring Security With JWT
+    url: /spring-security-with-jwt/
 ---
 
 Dealing with security risks becomes crucial for the application’s long-term sustainability and development for every Java developer out there at some time. While Java is not a very easy language to learn, Spring Boot may be claimed to make it a lot easier. In this circumstance, Spring Security simplifies our job and provides alternatives for setting our application.

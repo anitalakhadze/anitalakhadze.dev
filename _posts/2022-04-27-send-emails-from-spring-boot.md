@@ -8,6 +8,13 @@ tags: [Mail, Spring Boot, Java Mail API, Maven, Java]
 comments: true
 author: Ani Talakhadze
 summary: This tutorial shows how to send emails from a Spring Boot application using JavaMailSender, covering project setup, property configuration, service creation, and testing. With clear examples and practical advice, it guides you through building a simple, reliable email-sending feature for your Java projects.
+related_articles:
+  - title: Part 1 - HOW TO
+    url: /add-profiles-to-spring-boot/
+  - title: Part 2 - HOW TO
+    url: /configure-properties-in-spring-boot/
+  - title: Part 4 - HOW TO
+    url: /messaging-with-rabbitmq/
 ---
 
 Isn’t it the right time to demystify the quite easy process of sending emails from a Spring Boot application? It is a powerful tool for email marketing or mail notifications or any other purpose you may think of. Let’s not waste any time and get right to the point.

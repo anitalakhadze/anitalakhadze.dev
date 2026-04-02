@@ -8,6 +8,13 @@ tags: [jOOQ, JPA, ORM, Spring Boot, Maven]
 comments: true
 author: Ani Talakhadze
 summary: This post explores the strengths and challenges of using JPA versus jOOQ for ORM in Java projects, focusing on scenarios where jOOQ’s flexible SQL approach outshines JPA’s limitations. Through practical examples and setup guides, it shows how jOOQ can make complex queries and database interactions more efficient, helping developers decide which tool fits their needs best.
+related_articles:
+  - title: Id generation strategy in Spring Boot
+    url: /id-generation-strategy-in-sb-copy/
+  - title: Spring Security - Database Authentication
+    url: /spring-security-database-auth/
+  - title: Still Haven’t Tried Spring Cloud OpenFeign? You’re Missing Out
+    url: /spring-cloud-openfeign/
 ---
 
 If you’re like me, spending time checking out tutorials to improve your code, this is for you!

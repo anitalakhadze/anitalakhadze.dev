@@ -2,6 +2,13 @@
 layout: post
 title: Id generation strategy in Spring Boot
 author: Ani Talakhadze
+related_articles:
+  - title: Rethinking ORM
+    url: /rethinking-orm/
+  - title: Mastering Custom Validation in Spring Boot
+    url: /custom-validation-in-sb/
+  - title: Spring Security - Database Authentication
+    url: /spring-security-database-auth/
 ---
 
 When might we need @Id generation strategy in Spring Boot?

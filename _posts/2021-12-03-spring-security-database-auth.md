@@ -5,6 +5,13 @@ tags: [Spring Boot, Sprint Security, Database Configuration, Java]
 comments: true
 author: Ani Talakhadze
 summary: This post explains how to set up database-backed authentication in Spring Boot Security using MySQL and JPA. It guides you through configuring user entities, repositories, and services, then shows how to connect everything with a secure authentication setup—making it easy to manage users and roles from your database instead of in-memory storage.
+related_articles:
+  - title: Spring Boot Security - In-memory Authentication
+    url: /spring-security-in-memory-auth/
+  - title: Spring Boot Security - Authorization Configuration
+    url: /spring-security-authorization-configuration/
+  - title: Spring Security With JWT
+    url: /spring-security-with-jwt/
 ---
 
 We saw an example of an in-memory authentication configuration in Spring Boot in the last article. However, in-memory authentication will not be an ideal solution as our program expands and develops additional features, especially in production settings. You’ll almost certainly wish to verify your users using the data in your database. That’s exactly what we’ll be doing right now.

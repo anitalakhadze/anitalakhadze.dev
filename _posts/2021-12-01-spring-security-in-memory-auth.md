@@ -5,6 +5,13 @@ tags: [Spring Boot, Sprint Security, In-memory Authentication, Java]
 comments: true
 author: Ani Talakhadze
 summary: This post walks you through setting up in-memory authentication in Spring Boot Security. It explains how to configure user credentials and roles directly in your code, customize the authentication manager, and encode passwords—making it simple to test and secure your application without a database.
+related_articles:
+  - title: Spring Boot Security - Core Concepts Explained
+    url: /spring-security-core-concepts/
+  - title: Spring Security - Database Authentication
+    url: /spring-security-database-auth/
+  - title: Spring Boot Security - Authorization Configuration
+    url: /spring-security-authorization-configuration/
 ---
 
 We spent quite a bit of time in the last blog describing basic concepts in Spring Boot Security, and if you haven’t read it yet, you can have a look at it here.

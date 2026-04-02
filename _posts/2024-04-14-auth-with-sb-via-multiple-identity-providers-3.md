@@ -3,6 +3,13 @@ layout: post
 title: "[Part 3] — Authentication with Multiple Identity Providers"
 author: Ani Talakhadze
 summary: Implementing Authentication with Spring Boot Security 6, OAuth2, and Angular 17 via Multiple Identity Providers - Getting Authorization Credentials for Google, GitHub and Twitter
+related_articles:
+  - title: "[Part 1] — Authentication with Multiple Identity Providers"
+    url: /auth-with-sb-via-multiple-identity-providers-1/
+  - title: "[Part 2] — Authentication with Multiple Identity Providers"
+    url: /auth-with-sb-via-multiple-identity-providers-2/
+  - title: "[Part 4] — Authentication with Multiple Identity Providers"
+    url: /auth-with-sb-via-multiple-identity-providers-4/
 ---
 
 <figure>

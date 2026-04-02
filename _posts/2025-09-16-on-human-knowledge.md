@@ -3,6 +3,13 @@ layout: post
 title: On Why Human Knowledge Still Matters
 author: Ani Talakhadze
 summary: AI can give us answers instantly, but it can’t show the reasoning, mistakes, and human experiences behind them. Can genuine human voices be replaced by shortcuts? I don't think so, and here's why.
+related_articles:
+  - title: Human attention is weird
+    url: /on-attention-residue/
+  - title: When Everyone Polishes Their Resume, What Happens Next?
+    url: /on-shift-in-job-interview-process/
+  - title: SpringAI Featuring Ollama Chat Model
+    url: /springai-featuring-ollama/
 ---
 
 We live in very interesting times, for sure - reaching the heights we have never envisioned, making the progress we have never dreamt of, leaving the limits behind and reimagining how we do, think about and solve things. We have excellent models - gpts and likes of that - ready at our hands, offering ready-to-use answers and it's very convenient, I confess. But, [dramatic pause], doesn't it seem that we are letting go of all the knowledge behind the answer and the value with that? 

@@ -8,6 +8,13 @@ tags: [Java, Java 17, sealed classes, records]
 comments: true
 author: Ani Talakhadze
 summary: This article highlights the most interesting features introduced in Java 12 through Java 17, including sealed classes, records, pattern matching, switch expressions, helpful null pointer exceptions, enhanced random generators, and text blocks. With practical code examples and clear explanations, it’s a helpful guide for anyone considering upgrading or curious about modern Java capabilities.
+related_articles:
+  - title: Essential Stream Operations in Java
+    url: /essential-stream-operations-in-java/
+  - title: Cleaner Code with Java Optional - Examples, Best Practices and Exercises
+    url: /cleaner-code-with-java-optional-copy/
+  - title: Id generation strategy in Spring Boot
+    url: /id-generation-strategy-in-sb-copy/
 ---
 
 If you’ve been putting off using Java 17 until now, I’ve got some good news for you. You’ll be able to learn about the trendiest top features from Java 12 to Java 17 in one place and try out coding with me.
@@ -354,7 +361,6 @@ Of course, these aren’t the only changes from Java 12 to Java 17, but they’r
 You can also check out [my GitHub repo](https://github.com/anitalakhadze/java17features) to see the source code for all the examples given here.
 
 Stay tuned and don’t miss the following tutorials!
-
 
 
 

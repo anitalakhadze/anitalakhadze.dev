@@ -3,6 +3,13 @@ layout: post
 title: Git Squash or Squashn’t?!
 author: Ani Talakhadze
 summary: Spoiler Alert - It depends
+related_articles:
+  - title: Practices I Try to Follow for Cleaner Code
+    url: /practices-for-cleaner-code/
+  - title: Software Entropy
+    url: /software-entropy/
+  - title: IntelliJ IDEA Insider - Getting Started
+    url: /intellij-insider-getting-started/
 ---
 
 ![* Squash — The fruit of edible species is usually served as a cooked vegetable.](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*5wLgv12oG7pTrpYI.jpg)
