@@ -115,8 +115,14 @@ pre {
 .post-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
+    gap: 2em;
     margin-bottom: 0.5em;
+}
+
+.post-header small {
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .post-header h1 {
