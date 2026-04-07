@@ -3,6 +3,7 @@ layout: post
 title: On How Grainient Was Born
 author: Ani Talakhadze
 summary: Grainient is my first iOS app that turns colors from photos into beautiful animated grainy gradients.
+preview_image: https://i.imgur.com/OQolX6l.png
 # related_articles:
 #   - title: Software Entropy
 #     url: /software-entropy/

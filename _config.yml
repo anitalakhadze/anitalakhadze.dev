@@ -21,7 +21,7 @@
 title: Ani Talakhadze
 email: talakhadzeani@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal website and writing by Anita Talakhadze on software engineering,
+  Personal website and writing by Anita on software engineering,
   development tools, and practical programming topics.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.anitalakhadze.dev" # the base hostname & protocol for your site, e.g. http://example.com
