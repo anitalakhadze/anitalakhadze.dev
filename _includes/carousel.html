@@ -1,0 +1,37 @@
+{% assign carousel_items = include.items %}
+{% assign carousel_label = include.label | default: "Image gallery" %}
+
+{% if carousel_items and carousel_items.size > 0 %}
+<div class="post-carousel" data-carousel aria-label="{{ carousel_label | escape }}">
+    <div class="post-carousel-viewport">
+        {% for item in carousel_items %}
+        <figure class="post-carousel-slide">
+            <div class="post-carousel-media">
+                <img src="{{ item.src }}" alt="{{ item.alt | default: item.caption | default: carousel_label | escape }}">
+            </div>
+            {% if item.caption %}
+            <figcaption>{{ item.caption }}</figcaption>
+            {% endif %}
+        </figure>
+        {% endfor %}
+    </div>
+
+    {% if carousel_items.size > 1 %}
+    <div class="post-carousel-controls">
+        <button class="post-carousel-arrow" type="button" data-carousel-prev aria-label="Previous image">
+            <span aria-hidden="true">←</span>
+        </button>
+
+        <div class="post-carousel-indicators" aria-label="Carousel indicators">
+            {% for item in carousel_items %}
+            <button class="post-carousel-indicator{% if forloop.first %} is-active{% endif %}" type="button" data-carousel-to="{{ forloop.index0 }}" aria-label="Go to image {{ forloop.index }}"{% if forloop.first %} aria-current="true"{% endif %}></button>
+            {% endfor %}
+        </div>
+
+        <button class="post-carousel-arrow" type="button" data-carousel-next aria-label="Next image">
+            <span aria-hidden="true">→</span>
+        </button>
+    </div>
+    {% endif %}
+</div>
+{% endif %}

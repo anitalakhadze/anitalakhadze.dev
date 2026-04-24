@@ -155,5 +155,97 @@ layout: default
                 }, 1600);
             });
         });
+
+        document.querySelectorAll("[data-carousel]").forEach(function (carousel) {
+            const viewport = carousel.querySelector(".post-carousel-viewport");
+            const slides = Array.from(carousel.querySelectorAll(".post-carousel-slide"));
+            const prevButton = carousel.querySelector("[data-carousel-prev]");
+            const nextButton = carousel.querySelector("[data-carousel-next]");
+            const indicators = Array.from(carousel.querySelectorAll("[data-carousel-to]"));
+
+            if (!viewport || slides.length === 0) {
+                return;
+            }
+
+            let currentIndex = 0;
+            let scrollTicking = false;
+
+            function clampIndex(index) {
+                return Math.max(0, Math.min(index, slides.length - 1));
+            }
+
+            function updateControls() {
+                if (prevButton) {
+                    prevButton.disabled = currentIndex === 0;
+                }
+
+                if (nextButton) {
+                    nextButton.disabled = currentIndex === slides.length - 1;
+                }
+
+                indicators.forEach(function (indicator, index) {
+                    const isActive = index === currentIndex;
+                    indicator.classList.toggle("is-active", isActive);
+
+                    if (isActive) {
+                        indicator.setAttribute("aria-current", "true");
+                    } else {
+                        indicator.removeAttribute("aria-current");
+                    }
+                });
+            }
+
+            function goToSlide(index, behavior) {
+                currentIndex = clampIndex(index);
+                viewport.scrollTo({
+                    left: currentIndex * viewport.clientWidth,
+                    behavior: behavior || "smooth"
+                });
+                updateControls();
+            }
+
+            function syncFromScroll() {
+                scrollTicking = false;
+                const nextIndex = clampIndex(Math.round(viewport.scrollLeft / Math.max(viewport.clientWidth, 1)));
+
+                if (nextIndex !== currentIndex) {
+                    currentIndex = nextIndex;
+                    updateControls();
+                }
+            }
+
+            if (prevButton) {
+                prevButton.addEventListener("click", function () {
+                    goToSlide(currentIndex - 1);
+                });
+            }
+
+            if (nextButton) {
+                nextButton.addEventListener("click", function () {
+                    goToSlide(currentIndex + 1);
+                });
+            }
+
+            indicators.forEach(function (indicator, index) {
+                indicator.addEventListener("click", function () {
+                    goToSlide(index);
+                });
+            });
+
+            viewport.addEventListener("scroll", function () {
+                if (scrollTicking) {
+                    return;
+                }
+
+                scrollTicking = true;
+                window.requestAnimationFrame(syncFromScroll);
+            });
+
+            window.addEventListener("resize", function () {
+                goToSlide(currentIndex, "auto");
+            });
+
+            updateControls();
+        });
     });
 </script>
