@@ -9,6 +9,7 @@
     {% assign meta_description = page.description | default: page.summary | default: site.description %}
     {% assign page_url = public_url | append: site.baseurl | append: page.url %}
     {% assign meta_image = page.preview_image | default: site.default_social_image %}
+    {% assign meta_author = page.author | default: site.author | default: site.title %}
     {% if meta_image and meta_image contains '://' %}
     {% assign meta_image_url = meta_image %}
     {% elsif meta_image %}
@@ -16,6 +17,7 @@
     {% endif %}
     <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ meta_description | strip_html | normalize_whitespace | escape }}">
+    <meta name="author" content="{{ meta_author | escape }}">
     <meta name="robots" content="{% if page.robots %}{{ page.robots }}{% else %}index, follow{% endif %}">
     <link rel="canonical" href="{{ page_url }}">
     <meta property="og:title" content="{{ meta_title | escape }}">
@@ -25,6 +27,7 @@
     <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
     {% if meta_image_url %}
     <meta property="og:image" content="{{ meta_image_url }}">
+    <meta property="og:image:secure_url" content="{{ meta_image_url }}">
     <meta name="twitter:image" content="{{ meta_image_url }}">
     <meta name="twitter:card" content="summary_large_image">
     {% else %}
@@ -34,6 +37,7 @@
     <meta name="twitter:description" content="{{ meta_description | strip_html | normalize_whitespace | escape }}">
     {% if page.layout == 'post' %}
     <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+    <meta property="article:author" content="{{ meta_author | escape }}">
     {% endif %}
     <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/assets/main.css">
