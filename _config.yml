@@ -33,6 +33,12 @@ markdown: kramdown
 
 permalink: /:title/
 
+collections:
+  edoku:
+    output: true
+  grainient:
+    output: true
+
 # Build settings
 theme: minima
 plugins:
