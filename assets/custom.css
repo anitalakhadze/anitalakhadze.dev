@@ -8,12 +8,14 @@ body {
     padding: 0 1.5em;
     box-sizing: border-box;
     text-align: justify;
+    overflow-wrap: break-word;
 }
 
 a {
     color: #003559;
     text-decoration: none;
     transition: color 0.2s;
+    overflow-wrap: anywhere;
 }
 
 a:visited {
