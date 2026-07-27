@@ -38,22 +38,35 @@
 # Simple Dockerfile for building and serving the Jekyll site
 FROM ruby:3.2
 
-# Install dependencies
+# Install build / runtime dependencies
 RUN apt-get update -qq && \
-    apt-get install -y build-essential libpq-dev nodejs
+    apt-get install -y --no-install-recommends \
+      build-essential \
+      libpq-dev \
+      nodejs \
+      npm && \
+    rm -rf /var/lib/apt/lists/*
 
-# Set working directory
 WORKDIR /site
 
-# Copy Gemfiles and install gems
+# Copy Gemfiles first to leverage Docker cache
 COPY Gemfile Gemfile.lock ./
-RUN gem install bundler && bundle install
 
-# Copy the rest of the site
+# Install bundler and set bundler path to vendor/bundle so gems are isolated to the project
+RUN gem install bundler && \
+    bundle config set --local path 'vendor/bundle' && \
+    bundle install --jobs 4 --retry 3 || true
+
+# Copy entrypoint helper and site
+COPY scripts/entrypoint.sh /site/scripts/entrypoint.sh
+RUN chmod +x /site/scripts/entrypoint.sh
+
 COPY . .
 
-# Expose the default Jekyll port
 EXPOSE 4000
 
-# Serve the site
-CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0"]
+# Use entrypoint to ensure gems are installed when the container starts (useful when Gemfile changes on host)
+ENTRYPOINT ["/site/scripts/entrypoint.sh"]
+
+# Default dev command: watch, serve and enable livereload so host edits propagate to the browser
+CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--livereload", "--drafts", "--watch", "--incremental"]
