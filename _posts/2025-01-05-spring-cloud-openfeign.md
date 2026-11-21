@@ -342,6 +342,16 @@ public class CustomErrorDecoder implements ErrorDecoder {
 </dependency>
 ```
 
+The dependency alone does not enable circuit-breaker support for Feign. Enable it in `application.yml`, merging `circuitbreaker` alongside the existing `client` configuration under `spring.cloud.openfeign`:
+
+```yml
+spring:
+  cloud:
+    openfeign:
+      circuitbreaker:
+        enabled: true
+```
+
 Add a fallback implementation of your Feign client:
 
 ```java
@@ -396,9 +406,9 @@ To be able to answer when, it’s important to compare the capabilities of the a
 
 🟡 [WebClient](https://docs.spring.io/spring-framework/reference/web/webflux-webclient.html) is a powerful choice for reactive and asynchronous scenarios, ideal for handling streams of data.
 
-🟡 [RestClient](https://docs.spring.io/spring-framework/reference/web/webflux-webclient.html) offers a modern and flexible approach for synchronous tasks, aligning with newer Spring features.
+🟡 [RestClient](https://docs.spring.io/spring-framework/reference/integration/rest-clients.html#rest-restclient) offers a modern and flexible approach for synchronous tasks, aligning with newer Spring features.
 
-🟡 [RestTemplate](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/client/RestTemplate.html), though somewhat dated, remains reliable for straightforward, synchronous needs.
+🟡 **Update (November 2026):** [RestTemplate is deprecated since Spring Framework 7.1 and marked for removal in 8.0](https://github.com/spring-projects/spring-framework/blob/v7.1.0/spring-web/src/main/java/org/springframework/web/client/RestTemplate.java). Use RestClient for straightforward synchronous calls. For new declarative clients, [Spring recommends HTTP Service Clients](https://docs.spring.io/spring-cloud-openfeign/reference/); Spring Cloud OpenFeign remains available and continues to receive bug fixes.
 
 🟡 Additionally, you can consider [Apache’s HttpClient](https://www.geeksforgeeks.org/integrating-apache-httpclient-in-spring-boot/) or [OkHttp](https://www.baeldung.com/guide-to-okhttp) for advanced use cases requiring fine-grained control or performance optimization.
 
